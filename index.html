@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sharp Side</title>
+<meta name="theme-color" content="#15233B">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Sharp Side">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" href="icon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F3F5F7; --surface:#FFFFFF; --ink:#15233B; --muted:#5E6B7E; --line:#DCE1E8;
+  --public:#A9B3C1; --sharp:#0F7B5C; --flag:#E3A008; --loss:#B4372F;
+  --cond:"Barlow Condensed","Arial Narrow",system-ui,sans-serif;
+  --body:"Barlow",system-ui,-apple-system,"Segoe UI",sans-serif;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#0F1724;--surface:#172234;--ink:#E7ECF2;--muted:#93A1B5;--line:#26344A;
+        --public:#4F5E73;--sharp:#3FBF8F;--flag:#F2B637;--loss:#E0685F;}
+}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.45 var(--body);-webkit-text-size-adjust:100%}
+.wrap{max-width:560px;margin:0 auto;padding:20px 16px 48px}
+header h1{font:700 40px/1 var(--cond);margin:0;letter-spacing:.2px}
+.updated{color:var(--muted);font-size:14px;margin:6px 0 18px}
+nav{display:flex;gap:4px;background:var(--line);border-radius:10px;padding:3px;margin-bottom:14px}
+nav button{flex:1;border:0;background:transparent;color:var(--muted);font:600 15px var(--body);padding:9px 0;border-radius:8px;cursor:pointer}
+nav button[aria-selected="true"]{background:var(--surface);color:var(--ink)}
+button:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(--flag);outline-offset:2px}
+.control{display:flex;align-items:center;gap:12px;font-size:14px;color:var(--muted);margin:0 0 18px}
+.control input{flex:1;accent-color:var(--sharp)}
+.control output{font:700 18px var(--cond);color:var(--ink);min-width:44px;text-align:right}
+.game{background:var(--surface);border-radius:12px;padding:16px;margin-bottom:12px;border:1px solid var(--line)}
+.game.flagged{border-left:5px solid var(--flag)}
+.matchup{display:flex;justify-content:space-between;gap:8px;font-size:14px;color:var(--muted)}
+.pick{font:700 34px/1.05 var(--cond);margin:8px 0 4px}
+.why{margin:0 0 12px;font-size:15px}
+.bar{display:flex;height:26px;border-radius:6px;overflow:hidden;font:700 14px/26px var(--cond);color:#fff}
+.bar span{padding:0 8px;white-space:nowrap;overflow:hidden}
+.bar .pub{background:var(--public);color:var(--ink)}
+.bar .shp{background:var(--sharp);text-align:right}
+.bar.neutral .shp{background:var(--ink);color:var(--surface)}
+.barlabel{display:flex;justify-content:space-between;font-size:13px;color:var(--muted);margin:4px 0 10px}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{font-size:13px;font-weight:600;padding:3px 8px;border-radius:999px;background:var(--bg);border:1px solid var(--line)}
+.tag.win{background:var(--sharp);border-color:var(--sharp);color:#fff}
+.tag.loss{background:var(--loss);border-color:var(--loss);color:#fff}
+.row{display:grid;grid-template-columns:1fr auto;gap:2px 10px;padding:12px 0;border-bottom:1px solid var(--line)}
+.row:last-child{border-bottom:0}
+.row .teams{font:700 20px var(--cond)}
+.row .line{font-size:14px;color:var(--muted);text-align:right}
+.row .mini{grid-column:1/-1;display:grid;grid-template-columns:52px 1fr;gap:6px 8px;align-items:center;font-size:13px;color:var(--muted)}
+.mini .bar{height:18px;font-size:12px;line-height:18px}
+.record{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:16px}
+.record div{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px}
+.record b{display:block;font:700 40px/1 var(--cond)}
+.record small{color:var(--muted);font-size:14px}
+.note{color:var(--muted);font-size:14px}
+.empty{background:var(--surface);border:1px dashed var(--line);border-radius:12px;padding:20px;color:var(--muted)}
+a{color:inherit}
+h2{font:700 22px var(--cond);margin:22px 0 8px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Sharp Side</h1>
+    <p class="updated" id="updated">Loading…</p>
+  </header>
+  <nav role="tablist">
+    <button role="tab" aria-selected="true" data-tab="flags">Flags</button>
+    <button role="tab" aria-selected="false" data-tab="games">All games</button>
+    <button role="tab" aria-selected="false" data-tab="record">Record</button>
+  </nav>
+  <label class="control">Public at least
+    <input type="range" id="thr" min="55" max="90" step="5" value="70">
+    <output id="thrOut">70%</output>
+  </label>
+  <main id="view"></main>
+</div>
+<script>
+const KEY = [3, 7];
+let DATA = null, TAB = "flags", THR = 70;
+try { const t = localStorage.getItem("thr"); if (t) THR = +t; } catch (e) {}
+
+const num = x => typeof x === "number" ? x : null;
+const fmtLine = x => x === 0 ? "PK" : (x > 0 ? "+" : "") + x;
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function crossesKey(a, b) {
+  const lo = Math.min(Math.abs(a), Math.abs(b)), hi = Math.max(Math.abs(a), Math.abs(b));
+  return a !== b && KEY.some(k => lo <= k && k <= hi);
+}
+
+// Mirrors flags_for() in scripts/tracker.py
+function flagsFor(g, thr) {
+  const out = [], s = g.splits;
+  let o = num(g.spread.open), c = num(g.spread.current);
+  if (o !== null && c !== null) {
+    for (const [side, other] of [["home","away"],["away","home"]]) {
+      const pub = s[side === "home" ? "spreadHome" : "spreadAway"];
+      const shp = s[other === "home" ? "spreadHome" : "spreadAway"];
+      if ((pub.t ?? 0) < thr) continue;
+      const sign = side === "home" ? 1 : -1, move = sign * c - sign * o;
+      if (move > 0) out.push({market:"spread", publicSide:side, sharpSide:other, sharpLine:-sign*c,
+        publicLine:sign*c, publicPct:pub.t, move, gap:(shp.m ?? 0) - (shp.t ?? 0), sharpPct:shp.t,
+        open:-sign*o, keyNumber:crossesKey(o, c)});
+    }
+  }
+  o = num(g.total.open); c = num(g.total.current);
+  if (o !== null && c !== null) {
+    for (const [side, other, wrong] of [["over","under",c < o],["under","over",c > o]]) {
+      const pub = s[side], shp = s[other];
+      if ((pub.t ?? 0) >= thr && wrong) out.push({market:"total", publicSide:side, sharpSide:other,
+        sharpLine:c, publicPct:pub.t, move:Math.abs(c - o), gap:(shp.m ?? 0) - (shp.t ?? 0),
+        sharpPct:shp.t, open:o, keyNumber:false});
+    }
+  }
+  return out;
+}
+
+function grade(g, f) {
+  if (!g.final) return null;
+  const {home, away} = g.final;
+  if (f.market === "spread") {
+    const close = num(g.spread.close) ?? num(g.spread.current);
+    const line = f.sharpSide === "home" ? close : -close;
+    const margin = f.sharpSide === "home" ? home - away : away - home;
+    const r = margin + line;
+    return r > 0 ? "win" : r < 0 ? "loss" : "push";
+  }
+  const close = num(g.total.close) ?? num(g.total.current), pts = home + away;
+  if (pts === close) return "push";
+  return (pts > close) === (f.sharpSide === "over") ? "win" : "loss";
+}
+
+const teamName = (g, side) => g[side]?.name || g[side]?.abbr || side;
+function pickLabel(g, f) {
+  return f.market === "spread" ? `${teamName(g, f.sharpSide)} ${fmtLine(f.sharpLine)}`
+    : `${f.sharpSide === "over" ? "Over" : "Under"} ${f.sharpLine}`;
+}
+function kickoff(g) {
+  const d = new Date(g.start);
+  return d.toLocaleString([], {weekday:"short", hour:"numeric", minute:"2-digit"});
+}
+function ago(iso) {
+  const m = Math.round((Date.now() - new Date(iso)) / 60000);
+  if (m < 60) return `${m} min ago`;
+  const h = Math.round(m / 60);
+  return h < 48 ? `${h} hr ago` : `${Math.round(h / 24)} days ago`;
+}
+
+function splitBar(pubLabel, pubPct, shpLabel, shpPct, neutral) {
+  if (pubPct == null && shpPct == null) return `<span>No splits yet</span>`;
+  pubPct = pubPct ?? 0; shpPct = shpPct ?? 0;
+  return `<div class="bar${neutral ? " neutral" : ""}" role="img" aria-label="${esc(pubLabel)} ${pubPct}%, ${esc(shpLabel)} ${shpPct}%">
+    <span class="pub" style="width:${pubPct}%">${pubPct}%</span>
+    <span class="shp" style="width:${shpPct}%">${shpPct}%</span></div>`;
+}
+
+function flagCard(g, f) {
+  const res = grade(g, f);
+  const pubName = f.market === "spread" ? "the " + teamName(g, f.publicSide) : (f.publicSide === "over" ? "the over" : "the under");
+  const moved = f.market === "spread"
+    ? `The line moved from ${teamName(g, f.sharpSide)} ${fmtLine(f.open)} to ${fmtLine(f.sharpLine)}, a better number for the public side.`
+    : `The total moved from ${f.open} to ${f.sharpLine}, against the public.`;
+  const tags = [];
+  if (f.keyNumber) tags.push(`<span class="tag">Through a key number</span>`);
+  if (f.gap >= 10) tags.push(`<span class="tag">Money ${f.gap} pts ahead of tickets</span>`);
+  if (res) tags.push(`<span class="tag ${res}">${res === "win" ? "Won" : res === "loss" ? "Lost" : "Push"} ${g.final.away}–${g.final.home}</span>`);
+  return `<article class="game flagged">
+    <div class="matchup"><span>${esc(g.away.abbr)} at ${esc(g.home.abbr)}</span><span>${g.status === "final" ? "Final" : g.status === "live" ? "Live" : kickoff(g)}</span></div>
+    <div class="pick">${esc(pickLabel(g, f))}</div>
+    <p class="why">${f.publicPct}% of tickets are on ${esc(pubName)}. ${moved}</p>
+    ${splitBar(pubName, f.publicPct, "sharp side", f.sharpPct)}
+    <div class="barlabel"><span>Public tickets</span><span>Sharp side tickets</span></div>
+    <div class="tags">${tags.join("")}</div>
+  </article>`;
+}
+
+function allFlags(games) {
+  const out = [];
+  for (const g of games) for (const f of flagsFor(g, THR)) out.push([g, f]);
+  return out;
+}
+
+function currentWeek(games) {
+  const up = games.filter(g => g.status !== "final").sort((a, b) => a.start.localeCompare(b.start));
+  if (up.length) return [up[0].season, up[0].week];
+  const last = [...games].sort((a, b) => b.start.localeCompare(a.start))[0];
+  return last ? [last.season, last.week] : [null, null];
+}
+
+function render() {
+  const view = document.getElementById("view");
+  if (!DATA) return;
+  const games = Object.values(DATA.games || {}).sort((a, b) => a.start.localeCompare(b.start));
+  const [season, week] = currentWeek(games);
+  const thisWeek = games.filter(g => g.season === season && g.week === week);
+
+  if (TAB === "flags") {
+    const flags = allFlags(thisWeek);
+    view.innerHTML = `<h2>Week ${week ?? "–"}</h2>` + (flags.length ? flags.map(([g, f]) => flagCard(g, f)).join("")
+      : `<div class="empty">No flags this week at ${THR}%. A game shows up here when at least ${THR}% of tickets are on one side and the line moves the other way. Try a lower threshold, or check back after the next update.</div>`);
+  }
+
+  if (TAB === "games") {
+    view.innerHTML = `<h2>Week ${week ?? "–"}</h2><div class="game">` + (thisWeek.map(g => {
+      const s = g.splits, sp = g.spread, to = g.total;
+      const spreadTxt = num(sp.current) !== null ? `${esc(g.home.abbr)} ${fmtLine(sp.current)} (opened ${num(sp.open) !== null ? fmtLine(sp.open) : "n/a"})` : "No spread";
+      const totalTxt = num(to.current) !== null ? `O/U ${to.current} (opened ${to.open ?? "n/a"})` : "";
+      return `<div class="row">
+        <div class="teams">${esc(g.away.abbr)} at ${esc(g.home.abbr)}</div>
+        <div class="line">${g.status === "final" && g.final ? `Final ${g.final.away}–${g.final.home}` : kickoff(g)}<br>${spreadTxt}<br>${totalTxt}</div>
+        <div class="mini"><span>Spread</span>${splitBar(g.away.abbr, s.spreadAway.t, g.home.abbr, s.spreadHome.t, true)}
+          <span>Total</span>${splitBar("Over", s.over.t, "Under", s.under.t, true)}</div>
+      </div>`;
+    }).join("") || `<div class="note">No games loaded yet.</div>`) + `</div>
+      <p class="note">Bars show ticket %: away and over on the left, home and under on the right.</p>`;
+  }
+
+  if (TAB === "record") {
+    const graded = allFlags(games).map(([g, f]) => [g, f, grade(g, f)]).filter(x => x[2]);
+    const tally = m => { const r = {win:0, loss:0, push:0}; graded.filter(x => x[1].market === m).forEach(x => r[x[2]]++); return r; };
+    const sp = tally("spread"), to = tally("total");
+    const pct = r => r.win + r.loss ? Math.round(100 * r.win / (r.win + r.loss)) + "%" : "–";
+    view.innerHTML = `<div class="record">
+        <div><b>${sp.win}-${sp.loss}${sp.push ? "-" + sp.push : ""}</b><small>Spreads, ${pct(sp)}</small></div>
+        <div><b>${to.win}-${to.loss}${to.push ? "-" + to.push : ""}</b><small>Totals, ${pct(to)}</small></div>
+      </div>
+      <p class="note">Graded at the closing line, using the ${THR}% threshold. You need about 52.4% to break even at -110, and a few dozen picks is still a small sample.</p>
+      ${[...graded].reverse().map(([g, f]) => flagCard(g, f)).join("") || `<div class="empty">No finished flagged games yet at ${THR}%.</div>`}`;
+  }
+}
+
+document.querySelectorAll("nav button").forEach(b => b.addEventListener("click", () => {
+  TAB = b.dataset.tab;
+  document.querySelectorAll("nav button").forEach(x => x.setAttribute("aria-selected", x === b));
+  render();
+}));
+const thr = document.getElementById("thr"), thrOut = document.getElementById("thrOut");
+function setThr(v) { THR = +v; thr.value = THR; thrOut.textContent = THR + "%"; try { localStorage.setItem("thr", THR); } catch (e) {} render(); }
+thr.addEventListener("input", e => setThr(e.target.value));
+
+fetch("data.json?t=" + Date.now()).then(r => { if (!r.ok) throw 0; return r.json(); }).then(d => {
+  DATA = d;
+  let saved = null; try { saved = localStorage.getItem("thr"); } catch (e) {}
+  setThr(saved ?? d.defaultThreshold ?? 70);
+  document.getElementById("updated").textContent = d.updatedAt ? `Updated ${ago(d.updatedAt)}` : "Not updated yet";
+}).catch(() => {
+  document.getElementById("updated").textContent = "No data yet";
+  document.getElementById("view").innerHTML = `<div class="empty">data.json hasn't been created yet. In GitHub, open the Actions tab, choose "Update tracker," and click "Run workflow." Refresh this page when it finishes.</div>`;
+});
+</script>
+</body>
+</html>
