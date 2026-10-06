@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-06T00:13:11+00:00",
+ "updatedAt": "2026-10-06T12:09:48+00:00",
  "defaultThreshold": 70.0,
  "games": {
   "290888": {
@@ -830,6 +830,763 @@
    "url": "https://www.actionnetwork.com/nfl/atlanta-falcons-vs-new-orleans-saints-odds/290902",
    "final": null,
    "snapshotAt": "2026-10-06T00:13:11+00:00",
+   "alerted": []
+  },
+  "290903": {
+   "id": 290903,
+   "season": 2026,
+   "week": 5,
+   "start": "2026-10-09T00:15:00.000Z",
+   "status": "upcoming",
+   "home": {
+    "abbr": "DAL",
+    "name": "Cowboys",
+    "color": "#003594"
+   },
+   "away": {
+    "abbr": "TB",
+    "name": "Buccaneers",
+    "color": "#D50A0A"
+   },
+   "spread": {
+    "open": -3.5,
+    "current": -9,
+    "close": null
+   },
+   "total": {
+    "open": 52.5,
+    "current": 47.5,
+    "close": null
+   },
+   "splits": {
+    "spreadHome": {
+     "t": 55,
+     "m": 37
+    },
+    "spreadAway": {
+     "t": 45,
+     "m": 63
+    },
+    "over": {
+     "t": 66,
+     "m": 72
+    },
+    "under": {
+     "t": 34,
+     "m": 28
+    }
+   },
+   "betCount": 6139,
+   "url": "https://www.actionnetwork.com/nfl/tampa-bay-buccaneers-vs-dallas-cowboys-odds/290903",
+   "final": null,
+   "snapshotAt": "2026-10-06T12:09:48+00:00",
+   "alerted": []
+  },
+  "290820": {
+   "id": 290820,
+   "season": 2026,
+   "week": 5,
+   "start": "2026-10-11T13:30:00.000Z",
+   "status": "upcoming",
+   "home": {
+    "abbr": "JAC",
+    "name": "Jaguars",
+    "color": "#006778"
+   },
+   "away": {
+    "abbr": "PHI",
+    "name": "Eagles",
+    "color": "#004953"
+   },
+   "spread": {
+    "open": 1.5,
+    "current": -6.5,
+    "close": null
+   },
+   "total": {
+    "open": 44.5,
+    "current": 42.5,
+    "close": null
+   },
+   "splits": {
+    "spreadHome": {
+     "t": 78,
+     "m": 54
+    },
+    "spreadAway": {
+     "t": 22,
+     "m": 46
+    },
+    "over": {
+     "t": 39,
+     "m": 38
+    },
+    "under": {
+     "t": 61,
+     "m": 62
+    }
+   },
+   "betCount": 4670,
+   "url": "https://www.actionnetwork.com/nfl/philadelphia-eagles-vs-jacksonville-jaguars-odds/290820",
+   "final": null,
+   "snapshotAt": "2026-10-06T12:09:48+00:00",
+   "alerted": []
+  },
+  "290904": {
+   "id": 290904,
+   "season": 2026,
+   "week": 5,
+   "start": "2026-10-11T17:00:00.000Z",
+   "status": "upcoming",
+   "home": {
+    "abbr": "WAS",
+    "name": "Commanders",
+    "color": "#773141"
+   },
+   "away": {
+    "abbr": "NYG",
+    "name": "Giants",
+    "color": "#0B2265"
+   },
+   "spread": {
+    "open": -2.5,
+    "current": -3.5,
+    "close": null
+   },
+   "total": {
+    "open": 48.5,
+    "current": 43.5,
+    "close": null
+   },
+   "splits": {
+    "spreadHome": {
+     "t": 18,
+     "m": 12
+    },
+    "spreadAway": {
+     "t": 82,
+     "m": 88
+    },
+    "over": {
+     "t": 75,
+     "m": 72
+    },
+    "under": {
+     "t": 25,
+     "m": 28
+    }
+   },
+   "betCount": 2584,
+   "url": "https://www.actionnetwork.com/nfl/new-york-giants-vs-washington-commanders-odds/290904",
+   "final": null,
+   "snapshotAt": "2026-10-06T12:09:48+00:00",
+   "alerted": [
+    "spread:home",
+    "total:under"
+   ]
+  },
+  "290905": {
+   "id": 290905,
+   "season": 2026,
+   "week": 5,
+   "start": "2026-10-11T17:00:00.000Z",
+   "status": "upcoming",
+   "home": {
+    "abbr": "TEN",
+    "name": "Titans",
+    "color": "#4495D1"
+   },
+   "away": {
+    "abbr": "HOU",
+    "name": "Texans",
+    "color": "#A71930"
+   },
+   "spread": {
+    "open": 3.5,
+    "current": 7,
+    "close": null
+   },
+   "total": {
+    "open": 43.5,
+    "current": 39.5,
+    "close": null
+   },
+   "splits": {
+    "spreadHome": {
+     "t": 26,
+     "m": 12
+    },
+    "spreadAway": {
+     "t": 74,
+     "m": 88
+    },
+    "over": {
+     "t": 68,
+     "m": 65
+    },
+    "under": {
+     "t": 32,
+     "m": 35
+    }
+   },
+   "betCount": 3271,
+   "url": "https://www.actionnetwork.com/nfl/houston-texans-vs-tennessee-titans-odds/290905",
+   "final": null,
+   "snapshotAt": "2026-10-06T12:09:48+00:00",
+   "alerted": []
+  },
+  "290906": {
+   "id": 290906,
+   "season": 2026,
+   "week": 5,
+   "start": "2026-10-11T17:00:00.000Z",
+   "status": "upcoming",
+   "home": {
+    "abbr": "NO",
+    "name": "Saints",
+    "color": "#9F8958"
+   },
+   "away": {
+    "abbr": "MIN",
+    "name": "Vikings",
+    "color": "#4F2683"
+   },
+   "spread": {
+    "open": 1.5,
+    "current": 1.5,
+    "close": null
+   },
+   "total": {
+    "open": 44.5,
+    "current": 42.5,
+    "close": null
+   },
+   "splits": {
+    "spreadHome": {
+     "t": 43,
+     "m": 59
+    },
+    "spreadAway": {
+     "t": 57,
+     "m": 41
+    },
+    "over": {
+     "t": 66,
+     "m": 73
+    },
+    "under": {
+     "t": 34,
+     "m": 27
+    }
+   },
+   "betCount": 3205,
+   "url": "https://www.actionnetwork.com/nfl/minnesota-vikings-vs-new-orleans-saints-odds/290906",
+   "final": null,
+   "snapshotAt": "2026-10-06T12:09:48+00:00",
+   "alerted": []
+  },
+  "290907": {
+   "id": 290907,
+   "season": 2026,
+   "week": 5,
+   "start": "2026-10-11T17:00:00.000Z",
+   "status": "upcoming",
+   "home": {
+    "abbr": "MIA",
+    "name": "Dolphins",
+    "color": "#008E97"
+   },
+   "away": {
+    "abbr": "CIN",
+    "name": "Bengals",
+    "color": "#FB4F14"
+   },
+   "spread": {
+    "open": 6,
+    "current": 7.5,
+    "close": null
+   },
+   "total": {
+    "open": 49.5,
+    "current": 42.5,
+    "close": null
+   },
+   "splits": {
+    "spreadHome": {
+     "t": 27,
+     "m": 32
+    },
+    "spreadAway": {
+     "t": 73,
+     "m": 68
+    },
+    "over": {
+     "t": 63,
+     "m": 72
+    },
+    "under": {
+     "t": 37,
+     "m": 28
+    }
+   },
+   "betCount": 3054,
+   "url": "https://www.actionnetwork.com/nfl/cincinnati-bengals-vs-miami-dolphins-odds/290907",
+   "final": null,
+   "snapshotAt": "2026-10-06T12:09:48+00:00",
+   "alerted": []
+  },
+  "290908": {
+   "id": 290908,
+   "season": 2026,
+   "week": 5,
+   "start": "2026-10-11T17:00:00.000Z",
+   "status": "upcoming",
+   "home": {
+    "abbr": "NYJ",
+    "name": "Jets",
+    "color": "#125740"
+   },
+   "away": {
+    "abbr": "CLE",
+    "name": "Browns",
+    "color": "#FB4F14"
+   },
+   "spread": {
+    "open": -1.5,
+    "current": -2.5,
+    "close": null
+   },
+   "total": {
+    "open": 39.5,
+    "current": 40,
+    "close": null
+   },
+   "splits": {
+    "spreadHome": {
+     "t": 17,
+     "m": 18
+    },
+    "spreadAway": {
+     "t": 83,
+     "m": 82
+    },
+    "over": {
+     "t": 70,
+     "m": 64
+    },
+    "under": {
+     "t": 30,
+     "m": 36
+    }
+   },
+   "betCount": 3791,
+   "url": "https://www.actionnetwork.com/nfl/cleveland-browns-vs-new-york-jets-odds/290908",
+   "final": null,
+   "snapshotAt": "2026-10-06T12:09:48+00:00",
+   "alerted": [
+    "spread:home"
+   ]
+  },
+  "290909": {
+   "id": 290909,
+   "season": 2026,
+   "week": 5,
+   "start": "2026-10-11T17:00:00.000Z",
+   "status": "upcoming",
+   "home": {
+    "abbr": "PIT",
+    "name": "Steelers",
+    "color": "#FFB612"
+   },
+   "away": {
+    "abbr": "IND",
+    "name": "Colts",
+    "color": "#002C5F"
+   },
+   "spread": {
+    "open": -2.5,
+    "current": -2.5,
+    "close": null
+   },
+   "total": {
+    "open": 47.5,
+    "current": 44.5,
+    "close": null
+   },
+   "splits": {
+    "spreadHome": {
+     "t": 30,
+     "m": 28
+    },
+    "spreadAway": {
+     "t": 70,
+     "m": 72
+    },
+    "over": {
+     "t": 62,
+     "m": 52
+    },
+    "under": {
+     "t": 38,
+     "m": 48
+    }
+   },
+   "betCount": 5134,
+   "url": "https://www.actionnetwork.com/nfl/indianapolis-colts-vs-pittsburgh-steelers-odds/290909",
+   "final": null,
+   "snapshotAt": "2026-10-06T12:09:48+00:00",
+   "alerted": []
+  },
+  "290910": {
+   "id": 290910,
+   "season": 2026,
+   "week": 5,
+   "start": "2026-10-11T17:00:00.000Z",
+   "status": "upcoming",
+   "home": {
+    "abbr": "NE",
+    "name": "Patriots",
+    "color": "#002244"
+   },
+   "away": {
+    "abbr": "LV",
+    "name": "Raiders",
+    "color": "#A5ACAF"
+   },
+   "spread": {
+    "open": -8.5,
+    "current": -3.5,
+    "close": null
+   },
+   "total": {
+    "open": 44.5,
+    "current": 45.5,
+    "close": null
+   },
+   "splits": {
+    "spreadHome": {
+     "t": 27,
+     "m": 15
+    },
+    "spreadAway": {
+     "t": 73,
+     "m": 85
+    },
+    "over": {
+     "t": 70,
+     "m": 77
+    },
+    "under": {
+     "t": 30,
+     "m": 23
+    }
+   },
+   "betCount": 2827,
+   "url": "https://www.actionnetwork.com/nfl/las-vegas-raiders-vs-new-england-patriots-odds/290910",
+   "final": null,
+   "snapshotAt": "2026-10-06T12:09:48+00:00",
+   "alerted": []
+  },
+  "290914": {
+   "id": 290914,
+   "season": 2026,
+   "week": 5,
+   "start": "2026-10-11T17:00:00.000Z",
+   "status": "upcoming",
+   "home": {
+    "abbr": "GB",
+    "name": "Packers",
+    "color": "#203731"
+   },
+   "away": {
+    "abbr": "CHI",
+    "name": "Bears",
+    "color": "#C83803"
+   },
+   "spread": {
+    "open": -3,
+    "current": 2.5,
+    "close": null
+   },
+   "total": {
+    "open": 49.5,
+    "current": 45,
+    "close": null
+   },
+   "splits": {
+    "spreadHome": {
+     "t": 41,
+     "m": 54
+    },
+    "spreadAway": {
+     "t": 59,
+     "m": 46
+    },
+    "over": {
+     "t": 72,
+     "m": 65
+    },
+    "under": {
+     "t": 28,
+     "m": 35
+    }
+   },
+   "betCount": 3665,
+   "url": "https://www.actionnetwork.com/nfl/chicago-bears-vs-green-bay-packers-odds/290914",
+   "final": null,
+   "snapshotAt": "2026-10-06T12:09:48+00:00",
+   "alerted": [
+    "total:under"
+   ]
+  },
+  "290911": {
+   "id": 290911,
+   "season": 2026,
+   "week": 5,
+   "start": "2026-10-11T20:05:00.000Z",
+   "status": "upcoming",
+   "home": {
+    "abbr": "LAC",
+    "name": "Chargers",
+    "color": "#0080C6"
+   },
+   "away": {
+    "abbr": "DEN",
+    "name": "Broncos",
+    "color": "#FB4F14"
+   },
+   "spread": {
+    "open": -2.5,
+    "current": 3.5,
+    "close": null
+   },
+   "total": {
+    "open": 44.5,
+    "current": 42.5,
+    "close": null
+   },
+   "splits": {
+    "spreadHome": {
+     "t": 48,
+     "m": 59
+    },
+    "spreadAway": {
+     "t": 52,
+     "m": 41
+    },
+    "over": {
+     "t": 63,
+     "m": 66
+    },
+    "under": {
+     "t": 37,
+     "m": 34
+    }
+   },
+   "betCount": 2524,
+   "url": "https://www.actionnetwork.com/nfl/denver-broncos-vs-los-angeles-chargers-odds/290911",
+   "final": null,
+   "snapshotAt": "2026-10-06T12:09:48+00:00",
+   "alerted": []
+  },
+  "290912": {
+   "id": 290912,
+   "season": 2026,
+   "week": 5,
+   "start": "2026-10-11T20:25:00.000Z",
+   "status": "upcoming",
+   "home": {
+    "abbr": "SEA",
+    "name": "Seahawks",
+    "color": "#002244"
+   },
+   "away": {
+    "abbr": "SF",
+    "name": "49ers",
+    "color": "#AA0000"
+   },
+   "spread": {
+    "open": -3.5,
+    "current": -3,
+    "close": null
+   },
+   "total": {
+    "open": 48.5,
+    "current": 47.5,
+    "close": null
+   },
+   "splits": {
+    "spreadHome": {
+     "t": 18,
+     "m": 10
+    },
+    "spreadAway": {
+     "t": 82,
+     "m": 90
+    },
+    "over": {
+     "t": 53,
+     "m": 62
+    },
+    "under": {
+     "t": 47,
+     "m": 38
+    }
+   },
+   "betCount": 3377,
+   "url": "https://www.actionnetwork.com/nfl/san-francisco-49ers-vs-seattle-seahawks-odds/290912",
+   "final": null,
+   "snapshotAt": "2026-10-06T12:09:48+00:00",
+   "alerted": []
+  },
+  "290913": {
+   "id": 290913,
+   "season": 2026,
+   "week": 5,
+   "start": "2026-10-11T20:25:00.000Z",
+   "status": "upcoming",
+   "home": {
+    "abbr": "ARI",
+    "name": "Cardinals",
+    "color": "#97233F"
+   },
+   "away": {
+    "abbr": "DET",
+    "name": "Lions",
+    "color": "#005A8B"
+   },
+   "spread": {
+    "open": 8.5,
+    "current": 4.5,
+    "close": null
+   },
+   "total": {
+    "open": 48.5,
+    "current": 54.5,
+    "close": null
+   },
+   "splits": {
+    "spreadHome": {
+     "t": 64,
+     "m": 79
+    },
+    "spreadAway": {
+     "t": 36,
+     "m": 21
+    },
+    "over": {
+     "t": 44,
+     "m": 30
+    },
+    "under": {
+     "t": 56,
+     "m": 70
+    }
+   },
+   "betCount": 2276,
+   "url": "https://www.actionnetwork.com/nfl/detroit-lions-vs-arizona-cardinals-odds/290913",
+   "final": null,
+   "snapshotAt": "2026-10-06T12:09:48+00:00",
+   "alerted": []
+  },
+  "290915": {
+   "id": 290915,
+   "season": 2026,
+   "week": 5,
+   "start": "2026-10-12T00:20:00.000Z",
+   "status": "upcoming",
+   "home": {
+    "abbr": "ATL",
+    "name": "Falcons",
+    "color": "#A71930"
+   },
+   "away": {
+    "abbr": "BAL",
+    "name": "Ravens",
+    "color": "#241773"
+   },
+   "spread": {
+    "open": 4.5,
+    "current": 2.5,
+    "close": null
+   },
+   "total": {
+    "open": 48.5,
+    "current": 45.5,
+    "close": null
+   },
+   "splits": {
+    "spreadHome": {
+     "t": 64,
+     "m": 72
+    },
+    "spreadAway": {
+     "t": 36,
+     "m": 28
+    },
+    "over": {
+     "t": 46,
+     "m": 44
+    },
+    "under": {
+     "t": 54,
+     "m": 56
+    }
+   },
+   "betCount": 2418,
+   "url": "https://www.actionnetwork.com/nfl/baltimore-ravens-vs-atlanta-falcons-odds/290915",
+   "final": null,
+   "snapshotAt": "2026-10-06T12:09:48+00:00",
+   "alerted": []
+  },
+  "290916": {
+   "id": 290916,
+   "season": 2026,
+   "week": 5,
+   "start": "2026-10-13T00:15:00.000Z",
+   "status": "upcoming",
+   "home": {
+    "abbr": "LA",
+    "name": "Rams",
+    "color": "#FFD100"
+   },
+   "away": {
+    "abbr": "BUF",
+    "name": "Bills",
+    "color": "#00338D"
+   },
+   "spread": {
+    "open": -3,
+    "current": -2.5,
+    "close": null
+   },
+   "total": {
+    "open": 53.5,
+    "current": 54.5,
+    "close": null
+   },
+   "splits": {
+    "spreadHome": {
+     "t": 28,
+     "m": 25
+    },
+    "spreadAway": {
+     "t": 72,
+     "m": 75
+    },
+    "over": {
+     "t": 52,
+     "m": 57
+    },
+    "under": {
+     "t": 48,
+     "m": 43
+    }
+   },
+   "betCount": 2973,
+   "url": "https://www.actionnetwork.com/nfl/buffalo-bills-vs-los-angeles-rams-odds/290916",
+   "final": null,
+   "snapshotAt": "2026-10-06T12:09:48+00:00",
    "alerted": []
   }
  }
