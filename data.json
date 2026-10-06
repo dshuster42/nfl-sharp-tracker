@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-05T23:59:26+00:00",
+ "updatedAt": "2026-10-06T00:13:11+00:00",
  "defaultThreshold": 70.0,
  "games": {
   "290888": {
@@ -826,10 +826,10 @@
      "m": 24
     }
    },
-   "betCount": 205174,
+   "betCount": 223284,
    "url": "https://www.actionnetwork.com/nfl/atlanta-falcons-vs-new-orleans-saints-odds/290902",
    "final": null,
-   "snapshotAt": "2026-10-05T23:59:26+00:00",
+   "snapshotAt": "2026-10-06T00:13:11+00:00",
    "alerted": []
   }
  }
