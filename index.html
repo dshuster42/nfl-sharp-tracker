@@ -195,7 +195,8 @@ function allFlags(games) {
 }
 
 function currentWeek(games) {
-  const up = games.filter(g => g.status !== "final").sort((a, b) => a.start.localeCompare(b.start));
+  const cutoff = Date.now() - 6 * 3600 * 1000;  // skip old games still waiting on a final score
+  const up = games.filter(g => g.status !== "final" && new Date(g.start) > cutoff).sort((a, b) => a.start.localeCompare(b.start));
   if (up.length) return [up[0].season, up[0].week];
   const last = [...games].sort((a, b) => b.start.localeCompare(a.start))[0];
   return last ? [last.season, last.week] : [null, null];
