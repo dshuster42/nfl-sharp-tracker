@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-08T00:09:44+00:00",
+ "updatedAt": "2026-10-08T12:10:59+00:00",
  "defaultThreshold": 70.0,
  "games": {
   "290888": {
@@ -879,7 +879,7 @@
    "betCount": 30660,
    "url": "https://www.actionnetwork.com/nfl/tampa-bay-buccaneers-vs-dallas-cowboys-odds/290903",
    "final": null,
-   "snapshotAt": "2026-10-08T00:09:44+00:00",
+   "snapshotAt": "2026-10-08T12:10:59+00:00",
    "alerted": [
     "total:under"
    ]
@@ -931,7 +931,7 @@
    "betCount": 12278,
    "url": "https://www.actionnetwork.com/nfl/philadelphia-eagles-vs-jacksonville-jaguars-odds/290820",
    "final": null,
-   "snapshotAt": "2026-10-08T00:09:44+00:00",
+   "snapshotAt": "2026-10-08T12:10:59+00:00",
    "alerted": []
   },
   "290904": {
@@ -981,7 +981,7 @@
    "betCount": 6396,
    "url": "https://www.actionnetwork.com/nfl/new-york-giants-vs-washington-commanders-odds/290904",
    "final": null,
-   "snapshotAt": "2026-10-08T00:09:44+00:00",
+   "snapshotAt": "2026-10-08T12:10:59+00:00",
    "alerted": [
     "spread:home",
     "total:under"
@@ -1034,7 +1034,7 @@
    "betCount": 8865,
    "url": "https://www.actionnetwork.com/nfl/houston-texans-vs-tennessee-titans-odds/290905",
    "final": null,
-   "snapshotAt": "2026-10-08T00:09:44+00:00",
+   "snapshotAt": "2026-10-08T12:10:59+00:00",
    "alerted": [
     "total:under"
    ]
@@ -1086,7 +1086,7 @@
    "betCount": 9117,
    "url": "https://www.actionnetwork.com/nfl/minnesota-vikings-vs-new-orleans-saints-odds/290906",
    "final": null,
-   "snapshotAt": "2026-10-08T00:09:44+00:00",
+   "snapshotAt": "2026-10-08T12:10:59+00:00",
    "alerted": [
     "total:under"
    ]
@@ -1138,7 +1138,7 @@
    "betCount": 7088,
    "url": "https://www.actionnetwork.com/nfl/cincinnati-bengals-vs-miami-dolphins-odds/290907",
    "final": null,
-   "snapshotAt": "2026-10-08T00:09:44+00:00",
+   "snapshotAt": "2026-10-08T12:10:59+00:00",
    "alerted": []
   },
   "290908": {
@@ -1188,7 +1188,7 @@
    "betCount": 9365,
    "url": "https://www.actionnetwork.com/nfl/cleveland-browns-vs-new-york-jets-odds/290908",
    "final": null,
-   "snapshotAt": "2026-10-08T00:09:44+00:00",
+   "snapshotAt": "2026-10-08T12:10:59+00:00",
    "alerted": [
     "spread:home"
    ]
@@ -1240,7 +1240,7 @@
    "betCount": 11192,
    "url": "https://www.actionnetwork.com/nfl/indianapolis-colts-vs-pittsburgh-steelers-odds/290909",
    "final": null,
-   "snapshotAt": "2026-10-08T00:09:44+00:00",
+   "snapshotAt": "2026-10-08T12:10:59+00:00",
    "alerted": [
     "total:under"
    ]
@@ -1292,7 +1292,7 @@
    "betCount": 6906,
    "url": "https://www.actionnetwork.com/nfl/las-vegas-raiders-vs-new-england-patriots-odds/290910",
    "final": null,
-   "snapshotAt": "2026-10-08T00:09:44+00:00",
+   "snapshotAt": "2026-10-08T12:10:59+00:00",
    "alerted": []
   },
   "290914": {
@@ -1342,7 +1342,7 @@
    "betCount": 9032,
    "url": "https://www.actionnetwork.com/nfl/chicago-bears-vs-green-bay-packers-odds/290914",
    "final": null,
-   "snapshotAt": "2026-10-08T00:09:44+00:00",
+   "snapshotAt": "2026-10-08T12:10:59+00:00",
    "alerted": [
     "total:under"
    ]
@@ -1394,7 +1394,7 @@
    "betCount": 6800,
    "url": "https://www.actionnetwork.com/nfl/denver-broncos-vs-los-angeles-chargers-odds/290911",
    "final": null,
-   "snapshotAt": "2026-10-08T00:09:44+00:00",
+   "snapshotAt": "2026-10-08T12:10:59+00:00",
    "alerted": []
   },
   "290912": {
@@ -1444,7 +1444,7 @@
    "betCount": 9234,
    "url": "https://www.actionnetwork.com/nfl/san-francisco-49ers-vs-seattle-seahawks-odds/290912",
    "final": null,
-   "snapshotAt": "2026-10-08T00:09:44+00:00",
+   "snapshotAt": "2026-10-08T12:10:59+00:00",
    "alerted": []
   },
   "290913": {
@@ -1494,7 +1494,7 @@
    "betCount": 8380,
    "url": "https://www.actionnetwork.com/nfl/detroit-lions-vs-arizona-cardinals-odds/290913",
    "final": null,
-   "snapshotAt": "2026-10-08T00:09:44+00:00",
+   "snapshotAt": "2026-10-08T12:10:59+00:00",
    "alerted": []
   },
   "290915": {
@@ -1544,7 +1544,7 @@
    "betCount": 9925,
    "url": "https://www.actionnetwork.com/nfl/baltimore-ravens-vs-atlanta-falcons-odds/290915",
    "final": null,
-   "snapshotAt": "2026-10-08T00:09:44+00:00",
+   "snapshotAt": "2026-10-08T12:10:59+00:00",
    "alerted": []
   },
   "290916": {
@@ -1594,7 +1594,7 @@
    "betCount": 8709,
    "url": "https://www.actionnetwork.com/nfl/buffalo-bills-vs-los-angeles-rams-odds/290916",
    "final": null,
-   "snapshotAt": "2026-10-08T00:09:44+00:00",
+   "snapshotAt": "2026-10-08T12:10:59+00:00",
    "alerted": []
   }
  }
