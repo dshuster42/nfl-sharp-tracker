@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-12T00:11:29+00:00",
+ "updatedAt": "2026-10-12T12:15:36+00:00",
  "defaultThreshold": 70.0,
  "games": {
   "290888": {
@@ -1548,7 +1548,7 @@
    "season": 2026,
    "week": 5,
    "start": "2026-10-12T00:20:00.000Z",
-   "status": "upcoming",
+   "status": "final",
    "home": {
     "abbr": "ATL",
     "name": "Falcons",
@@ -1561,36 +1561,39 @@
    },
    "spread": {
     "open": 4.5,
-    "current": -3.5,
-    "close": null
+    "current": -3,
+    "close": -3
    },
    "total": {
     "open": 48.5,
     "current": 44,
-    "close": null
+    "close": 44
    },
    "splits": {
     "spreadHome": {
-     "t": 46,
-     "m": 44
+     "t": 47,
+     "m": 46
     },
     "spreadAway": {
-     "t": 54,
-     "m": 56
+     "t": 53,
+     "m": 54
     },
     "over": {
-     "t": 78,
-     "m": 78
+     "t": 79,
+     "m": 81
     },
     "under": {
-     "t": 22,
-     "m": 22
+     "t": 21,
+     "m": 19
     }
    },
-   "betCount": 135663,
+   "betCount": 162578,
    "url": "https://www.actionnetwork.com/nfl/baltimore-ravens-vs-atlanta-falcons-odds/290915",
-   "final": null,
-   "snapshotAt": "2026-10-12T00:11:29+00:00",
+   "final": {
+    "home": 23,
+    "away": 30
+   },
+   "snapshotAt": "2026-10-12T12:15:36+00:00",
    "alerted": [
     "total:under"
    ]
@@ -1624,25 +1627,25 @@
    "splits": {
     "spreadHome": {
      "t": 21,
-     "m": 25
+     "m": 22
     },
     "spreadAway": {
      "t": 79,
-     "m": 75
+     "m": 78
     },
     "over": {
-     "t": 66,
-     "m": 73
+     "t": 69,
+     "m": 74
     },
     "under": {
-     "t": 34,
-     "m": 27
+     "t": 31,
+     "m": 26
     }
    },
-   "betCount": 42474,
+   "betCount": 55030,
    "url": "https://www.actionnetwork.com/nfl/buffalo-bills-vs-los-angeles-rams-odds/290916",
    "final": null,
-   "snapshotAt": "2026-10-12T00:11:29+00:00",
+   "snapshotAt": "2026-10-12T12:15:36+00:00",
    "alerted": [
     "spread:home"
    ]
