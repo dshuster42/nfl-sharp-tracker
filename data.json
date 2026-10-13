@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-12T12:15:36+00:00",
+ "updatedAt": "2026-10-13T00:12:58+00:00",
  "defaultThreshold": 70.0,
  "games": {
   "290888": {
@@ -1621,31 +1621,31 @@
    },
    "total": {
     "open": 53.5,
-    "current": 54.5,
+    "current": 55.5,
     "close": null
    },
    "splits": {
     "spreadHome": {
-     "t": 21,
-     "m": 22
+     "t": 25,
+     "m": 28
     },
     "spreadAway": {
-     "t": 79,
-     "m": 78
+     "t": 75,
+     "m": 72
     },
     "over": {
-     "t": 69,
-     "m": 74
+     "t": 85,
+     "m": 88
     },
     "under": {
-     "t": 31,
-     "m": 26
+     "t": 15,
+     "m": 12
     }
    },
-   "betCount": 55030,
+   "betCount": 224349,
    "url": "https://www.actionnetwork.com/nfl/buffalo-bills-vs-los-angeles-rams-odds/290916",
    "final": null,
-   "snapshotAt": "2026-10-12T12:15:36+00:00",
+   "snapshotAt": "2026-10-13T00:12:58+00:00",
    "alerted": [
     "spread:home"
    ]
