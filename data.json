@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-16T00:15:26+00:00",
+ "updatedAt": "2026-10-16T12:22:13+00:00",
  "defaultThreshold": 70.0,
  "games": {
   "290888": {
@@ -1655,7 +1655,7 @@
    "season": 2026,
    "week": 6,
    "start": "2026-10-16T00:15:00.000Z",
-   "status": "upcoming",
+   "status": "final",
    "home": {
     "abbr": "DEN",
     "name": "Broncos",
@@ -1669,12 +1669,12 @@
    "spread": {
     "open": 1.5,
     "current": 2.5,
-    "close": null
+    "close": 2.5
    },
    "total": {
     "open": 43.5,
     "current": 40.5,
-    "close": null
+    "close": 40.5
    },
    "splits": {
     "spreadHome": {
@@ -1696,8 +1696,11 @@
    },
    "betCount": 212439,
    "url": "https://www.actionnetwork.com/nfl/seattle-seahawks-vs-denver-broncos-odds/290917",
-   "final": null,
-   "snapshotAt": "2026-10-16T00:15:26+00:00",
+   "final": {
+    "home": 17,
+    "away": 14
+   },
+   "snapshotAt": "2026-10-16T12:22:13+00:00",
    "alerted": [
     "total:under"
    ]
@@ -1731,25 +1734,25 @@
    "splits": {
     "spreadHome": {
      "t": 59,
-     "m": 50
+     "m": 52
     },
     "spreadAway": {
      "t": 41,
-     "m": 50
+     "m": 48
     },
     "over": {
      "t": 45,
-     "m": 59
+     "m": 60
     },
     "under": {
      "t": 55,
-     "m": 41
+     "m": 40
     }
    },
-   "betCount": 19447,
+   "betCount": 21982,
    "url": "https://www.actionnetwork.com/nfl/houston-texans-vs-jacksonville-jaguars-odds/290821",
    "final": null,
-   "snapshotAt": "2026-10-16T00:15:26+00:00",
+   "snapshotAt": "2026-10-16T12:22:13+00:00",
    "alerted": []
   },
   "290918": {
@@ -1780,26 +1783,26 @@
    },
    "splits": {
     "spreadHome": {
-     "t": 68,
-     "m": 79
-    },
-    "spreadAway": {
-     "t": 32,
-     "m": 21
-    },
-    "over": {
-     "t": 68,
+     "t": 66,
      "m": 75
     },
-    "under": {
-     "t": 32,
+    "spreadAway": {
+     "t": 34,
      "m": 25
+    },
+    "over": {
+     "t": 69,
+     "m": 72
+    },
+    "under": {
+     "t": 31,
+     "m": 28
     }
    },
-   "betCount": 14464,
+   "betCount": 16246,
    "url": "https://www.actionnetwork.com/nfl/chicago-bears-vs-atlanta-falcons-odds/290918",
    "final": null,
-   "snapshotAt": "2026-10-16T00:15:26+00:00",
+   "snapshotAt": "2026-10-16T12:22:13+00:00",
    "alerted": [
     "spread:away"
    ]
@@ -1832,26 +1835,26 @@
    },
    "splits": {
     "spreadHome": {
-     "t": 39,
-     "m": 33
+     "t": 38,
+     "m": 39
     },
     "spreadAway": {
-     "t": 61,
-     "m": 67
+     "t": 62,
+     "m": 61
     },
     "over": {
      "t": 80,
-     "m": 70
+     "m": 72
     },
     "under": {
      "t": 20,
-     "m": 30
+     "m": 28
     }
    },
-   "betCount": 10723,
+   "betCount": 12096,
    "url": "https://www.actionnetwork.com/nfl/baltimore-ravens-vs-cleveland-browns-odds/290919",
    "final": null,
-   "snapshotAt": "2026-10-16T00:15:26+00:00",
+   "snapshotAt": "2026-10-16T12:22:13+00:00",
    "alerted": [
     "total:under"
    ]
@@ -1885,25 +1888,25 @@
    "splits": {
     "spreadHome": {
      "t": 30,
-     "m": 21
+     "m": 23
     },
     "spreadAway": {
      "t": 70,
-     "m": 79
+     "m": 77
     },
     "over": {
      "t": 82,
-     "m": 81
+     "m": 80
     },
     "under": {
      "t": 18,
-     "m": 19
+     "m": 20
     }
    },
-   "betCount": 11480,
+   "betCount": 12934,
    "url": "https://www.actionnetwork.com/nfl/pittsburgh-steelers-vs-tampa-bay-buccaneers-odds/290920",
    "final": null,
-   "snapshotAt": "2026-10-16T00:15:26+00:00",
+   "snapshotAt": "2026-10-16T12:22:13+00:00",
    "alerted": [
     "total:under"
    ]
@@ -1937,25 +1940,25 @@
    "splits": {
     "spreadHome": {
      "t": 75,
-     "m": 76
+     "m": 77
     },
     "spreadAway": {
      "t": 25,
-     "m": 24
+     "m": 23
     },
     "over": {
-     "t": 74,
-     "m": 77
+     "t": 68,
+     "m": 74
     },
     "under": {
-     "t": 26,
-     "m": 23
+     "t": 32,
+     "m": 26
     }
    },
-   "betCount": 10410,
+   "betCount": 11682,
    "url": "https://www.actionnetwork.com/nfl/new-york-jets-vs-new-england-patriots-odds/290921",
    "final": null,
-   "snapshotAt": "2026-10-16T00:15:26+00:00",
+   "snapshotAt": "2026-10-16T12:22:13+00:00",
    "alerted": [
     "spread:away"
    ]
@@ -1988,26 +1991,26 @@
    },
    "splits": {
     "spreadHome": {
-     "t": 54,
-     "m": 57
+     "t": 56,
+     "m": 56
     },
     "spreadAway": {
-     "t": 46,
-     "m": 43
+     "t": 44,
+     "m": 44
     },
     "over": {
-     "t": 71,
-     "m": 74
+     "t": 66,
+     "m": 76
     },
     "under": {
-     "t": 29,
-     "m": 26
+     "t": 34,
+     "m": 24
     }
    },
-   "betCount": 13333,
+   "betCount": 14858,
    "url": "https://www.actionnetwork.com/nfl/new-orleans-saints-vs-new-york-giants-odds/290922",
    "final": null,
-   "snapshotAt": "2026-10-16T00:15:26+00:00",
+   "snapshotAt": "2026-10-16T12:22:13+00:00",
    "alerted": []
   },
   "290923": {
@@ -2038,26 +2041,26 @@
    },
    "splits": {
     "spreadHome": {
-     "t": 53,
-     "m": 39
+     "t": 51,
+     "m": 37
     },
     "spreadAway": {
-     "t": 47,
-     "m": 61
+     "t": 49,
+     "m": 63
     },
     "over": {
-     "t": 81,
-     "m": 68
+     "t": 77,
+     "m": 72
     },
     "under": {
-     "t": 19,
-     "m": 32
+     "t": 23,
+     "m": 28
     }
    },
-   "betCount": 13141,
+   "betCount": 14600,
    "url": "https://www.actionnetwork.com/nfl/carolina-panthers-vs-philadelphia-eagles-odds/290923",
    "final": null,
-   "snapshotAt": "2026-10-16T00:15:26+00:00",
+   "snapshotAt": "2026-10-16T12:22:13+00:00",
    "alerted": [
     "total:under"
    ]
@@ -2090,26 +2093,26 @@
    },
    "splits": {
     "spreadHome": {
-     "t": 73,
-     "m": 83
+     "t": 74,
+     "m": 84
     },
     "spreadAway": {
-     "t": 27,
-     "m": 17
+     "t": 26,
+     "m": 16
     },
     "over": {
-     "t": 76,
-     "m": 80
+     "t": 69,
+     "m": 74
     },
     "under": {
-     "t": 24,
-     "m": 20
+     "t": 31,
+     "m": 26
     }
    },
-   "betCount": 10460,
+   "betCount": 11697,
    "url": "https://www.actionnetwork.com/nfl/tennessee-titans-vs-indianapolis-colts-odds/290924",
    "final": null,
-   "snapshotAt": "2026-10-16T00:15:26+00:00",
+   "snapshotAt": "2026-10-16T12:22:13+00:00",
    "alerted": [
     "total:under"
    ]
@@ -2142,26 +2145,26 @@
    },
    "splits": {
     "spreadHome": {
-     "t": 64,
-     "m": 52
+     "t": 65,
+     "m": 57
     },
     "spreadAway": {
-     "t": 36,
-     "m": 48
+     "t": 35,
+     "m": 43
     },
     "over": {
-     "t": 68,
-     "m": 71
+     "t": 63,
+     "m": 69
     },
     "under": {
-     "t": 32,
-     "m": 29
+     "t": 37,
+     "m": 31
     }
    },
-   "betCount": 11314,
+   "betCount": 12879,
    "url": "https://www.actionnetwork.com/nfl/arizona-cardinals-vs-los-angeles-rams-odds/290925",
    "final": null,
-   "snapshotAt": "2026-10-16T00:15:26+00:00",
+   "snapshotAt": "2026-10-16T12:22:13+00:00",
    "alerted": []
   },
   "290926": {
@@ -2192,26 +2195,26 @@
    },
    "splits": {
     "spreadHome": {
-     "t": 46,
-     "m": 59
+     "t": 42,
+     "m": 52
     },
     "spreadAway": {
-     "t": 54,
-     "m": 41
+     "t": 58,
+     "m": 48
     },
     "over": {
-     "t": 70,
-     "m": 81
+     "t": 71,
+     "m": 84
     },
     "under": {
-     "t": 30,
-     "m": 19
+     "t": 29,
+     "m": 16
     }
    },
-   "betCount": 13969,
+   "betCount": 15842,
    "url": "https://www.actionnetwork.com/nfl/buffalo-bills-vs-las-vegas-raiders-odds/290926",
    "final": null,
-   "snapshotAt": "2026-10-16T00:15:26+00:00",
+   "snapshotAt": "2026-10-16T12:22:13+00:00",
    "alerted": []
   },
   "290927": {
@@ -2232,7 +2235,7 @@
    },
    "spread": {
     "open": -2.5,
-    "current": -8.5,
+    "current": -7.5,
     "close": null
    },
    "total": {
@@ -2242,26 +2245,26 @@
    },
    "splits": {
     "spreadHome": {
-     "t": 58,
+     "t": 61,
      "m": 54
     },
     "spreadAway": {
-     "t": 42,
+     "t": 39,
      "m": 46
     },
     "over": {
-     "t": 71,
-     "m": 62
+     "t": 66,
+     "m": 67
     },
     "under": {
-     "t": 29,
-     "m": 38
+     "t": 34,
+     "m": 33
     }
    },
-   "betCount": 13586,
+   "betCount": 15368,
    "url": "https://www.actionnetwork.com/nfl/los-angeles-chargers-vs-kansas-city-chiefs-odds/290927",
    "final": null,
-   "snapshotAt": "2026-10-16T00:15:26+00:00",
+   "snapshotAt": "2026-10-16T12:22:13+00:00",
    "alerted": [
     "total:under"
    ]
@@ -2295,25 +2298,25 @@
    "splits": {
     "spreadHome": {
      "t": 47,
-     "m": 43
+     "m": 39
     },
     "spreadAway": {
      "t": 53,
-     "m": 57
+     "m": 61
     },
     "over": {
-     "t": 75,
-     "m": 82
+     "t": 69,
+     "m": 85
     },
     "under": {
-     "t": 25,
-     "m": 18
+     "t": 31,
+     "m": 15
     }
    },
-   "betCount": 14555,
+   "betCount": 16398,
    "url": "https://www.actionnetwork.com/nfl/dallas-cowboys-vs-green-bay-packers-odds/290928",
    "final": null,
-   "snapshotAt": "2026-10-16T00:15:26+00:00",
+   "snapshotAt": "2026-10-16T12:22:13+00:00",
    "alerted": []
   },
   "290929": {
@@ -2344,26 +2347,26 @@
    },
    "splits": {
     "spreadHome": {
-     "t": 75,
-     "m": 81
+     "t": 76,
+     "m": 80
     },
     "spreadAway": {
-     "t": 25,
-     "m": 19
+     "t": 24,
+     "m": 20
     },
     "over": {
-     "t": 68,
-     "m": 67
+     "t": 66,
+     "m": 68
     },
     "under": {
-     "t": 32,
-     "m": 33
+     "t": 34,
+     "m": 32
     }
    },
-   "betCount": 9607,
+   "betCount": 10496,
    "url": "https://www.actionnetwork.com/nfl/washington-commanders-vs-san-francisco-49ers-odds/290929",
    "final": null,
-   "snapshotAt": "2026-10-16T00:15:26+00:00",
+   "snapshotAt": "2026-10-16T12:22:13+00:00",
    "alerted": []
   }
  }
