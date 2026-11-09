@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-09T04:07:51+00:00",
+ "updatedAt": "2026-11-09T21:50:25+00:00",
  "defaultThreshold": 70.0,
  "games": {
   "290888": {
@@ -3803,7 +3803,7 @@
    "season": 2026,
    "week": 9,
    "start": "2026-11-09T01:20:00.000Z",
-   "status": "live",
+   "status": "final",
    "home": {
     "abbr": "CHI",
     "name": "Bears",
@@ -3844,7 +3844,10 @@
    },
    "betCount": 148866,
    "url": "https://www.actionnetwork.com/nfl/tampa-bay-buccaneers-vs-chicago-bears-odds/290969",
-   "final": null,
+   "final": {
+    "home": 27,
+    "away": 24
+   },
    "snapshotAt": "2026-11-09T04:07:51+00:00",
    "alerted": []
   },
@@ -3866,36 +3869,36 @@
    },
    "spread": {
     "open": 3,
-    "current": 3,
+    "current": 3.5,
     "close": null
    },
    "total": {
     "open": 48.5,
-    "current": 44.5,
+    "current": 45.5,
     "close": null
    },
    "splits": {
     "spreadHome": {
-     "t": 32,
-     "m": 44
+     "t": 35,
+     "m": 45
     },
     "spreadAway": {
-     "t": 68,
-     "m": 56
+     "t": 65,
+     "m": 55
     },
     "over": {
-     "t": 70,
-     "m": 58
+     "t": 66,
+     "m": 56
     },
     "under": {
-     "t": 30,
-     "m": 42
+     "t": 34,
+     "m": 44
     }
    },
-   "betCount": 30489,
+   "betCount": 93749,
    "url": "https://www.actionnetwork.com/nfl/buffalo-bills-vs-minnesota-vikings-odds/291123",
    "final": null,
-   "snapshotAt": "2026-11-09T04:07:51+00:00",
+   "snapshotAt": "2026-11-09T21:50:25+00:00",
    "alerted": [
     "total:under"
    ]
