@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-09T21:50:25+00:00",
+ "updatedAt": "2026-11-10T05:38:21+00:00",
  "defaultThreshold": 70.0,
  "games": {
   "290888": {
@@ -3856,7 +3856,7 @@
    "season": 2026,
    "week": 9,
    "start": "2026-11-10T01:15:00.000Z",
-   "status": "upcoming",
+   "status": "final",
    "home": {
     "abbr": "MIN",
     "name": "Vikings",
@@ -3870,35 +3870,38 @@
    "spread": {
     "open": 3,
     "current": 3.5,
-    "close": null
+    "close": 3.5
    },
    "total": {
     "open": 48.5,
-    "current": 45.5,
-    "close": null
+    "current": 46,
+    "close": 46
    },
    "splits": {
     "spreadHome": {
-     "t": 35,
-     "m": 45
+     "t": 39,
+     "m": 53
     },
     "spreadAway": {
-     "t": 65,
-     "m": 55
+     "t": 61,
+     "m": 47
     },
     "over": {
-     "t": 66,
-     "m": 56
+     "t": 62,
+     "m": 54
     },
     "under": {
-     "t": 34,
-     "m": 44
+     "t": 38,
+     "m": 46
     }
    },
-   "betCount": 93749,
+   "betCount": 194526,
    "url": "https://www.actionnetwork.com/nfl/buffalo-bills-vs-minnesota-vikings-odds/291123",
-   "final": null,
-   "snapshotAt": "2026-11-09T21:50:25+00:00",
+   "final": {
+    "home": 6,
+    "away": 23
+   },
+   "snapshotAt": "2026-11-10T05:38:21+00:00",
    "alerted": [
     "total:under"
    ]
